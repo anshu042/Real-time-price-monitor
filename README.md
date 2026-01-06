@@ -11,7 +11,7 @@ The **Real-Time Price Monitor** is a full-stack automated scraping solution desi
 
 This project demonstrates the integration of complex backend scheduling (Cron jobs), third-party scraping APIs, and reactive frontend data visualization.
 
-**[🌐 View Live Demo](#)** *(https://real-time-price-monitor.vercel.app/)*
+<a href="https://real-time-price-monitor.vercel.app/" target="_blank">**[🌐 View Live Demo](#)**</a>
 
 ## ✨ Key Features
 
