@@ -1,4 +1,4 @@
-# 📉 Real-Time E-Commerce Price Monitor
+# 📉 Real-Time E-Commerce Products Price Monitor
 
 ![Next.js](https://img.shields.io/badge/Next.js_14-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
@@ -11,7 +11,7 @@ The **Real-Time Price Monitor** is a full-stack automated scraping solution desi
 
 This project demonstrates the integration of complex backend scheduling (Cron jobs), third-party scraping APIs, and reactive frontend data visualization.
 
-<a href="https://real-time-price-monitor.vercel.app/" target="_blank">**[🌐 View Live Demo](#)**</a>
+[🌐 View Live Demo](https://real-time-price-monitor.vercel.app/)
 
 ## ✨ Key Features
 
@@ -65,7 +65,6 @@ This project demonstrates the integration of complex backend scheduling (Cron jo
     NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
     NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
     FIRECRAWL_API_KEY=your_firecrawl_key
-    EMAIL_PASSWORD=your_email_app_password
     ```
 
 4.  **Run the development server**
@@ -90,3 +89,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 │   └── email.js        # Notification transport logic
 └── utils/
     └── supabase/       # Database client & middleware
+```
+
+## 🖥️ Preview
+
+<div align="center">
+  
+## 📫 Connect With Me
+
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:anshu04232@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anshu042)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/anshhu04)
+
+**Anshu Kushwaha**
+
+</div>
