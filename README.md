@@ -92,6 +92,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ```
 
 ## 🖥️ Preview
+<img width="1919" height="1036" alt="ShopAlert-Preview01" src="https://github.com/user-attachments/assets/709624d6-23e5-45d6-ab33-15923e0ea4ac" />
+<img width="1919" height="1036" alt="ShopAlert-Preview02" src="https://github.com/user-attachments/assets/de53d87d-5705-419c-bb88-361e08ffc356" />
+<img width="1918" height="1038" alt="ShopAlert-Preview03" src="https://github.com/user-attachments/assets/0462a56c-8a65-43a0-bb7d-341d72cc447c" />
+<img width="1919" height="1037" alt="ShopAlert-Preview04" src="https://github.com/user-attachments/assets/d7e1e877-97cf-4365-8cf6-0a84cb40bd28" />
+<img width="1917" height="1035" alt="ShopAlert-Preview05" src="https://github.com/user-attachments/assets/94dab052-988f-453b-ad6f-c9289f001201" />
 
 <div align="center">
   
