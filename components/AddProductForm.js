@@ -10,7 +10,7 @@ import { toast } from "sonner";
 
 export default function AddProductForm({ user }) {
   const [url, setUrl] = useState("");
-  const [status, setStatus] = useState("idle"); // idle, loading, success
+  const [status, setStatus] = useState("idle");
   const [showAuthModal, setShowAuthModal] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -30,8 +30,6 @@ export default function AddProductForm({ user }) {
       setStatus("success");
       toast.success("Tracking initiated"); 
       setUrl("");
-      
-      // Reset to idle after animation
       setTimeout(() => setStatus("idle"), 2000);
     }
   };
@@ -50,7 +48,7 @@ export default function AddProductForm({ user }) {
             type="url"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
-            placeholder="Paste product URL (Flipkart,Amazon, etc...)"
+            placeholder="Paste product URL (Flipkart, Amazon, etc...)"
             className="border-none shadow-none focus-visible:ring-0 bg-transparent h-12 text-base px-4 w-full placeholder:text-muted-foreground/50"
             required
             disabled={status !== "idle"}
