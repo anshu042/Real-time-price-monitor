@@ -9,7 +9,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Bell } from "lucide-react"; // Importing the Bell icon
+import { Bell } from "lucide-react"; 
 
 export default function AuthModal({ isOpen, onClose }) {
   const supabase = createClient();
@@ -29,28 +29,27 @@ export default function AuthModal({ isOpen, onClose }) {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-[400px] p-0 overflow-hidden border-0 shadow-2xl rounded-2xl bg-white">
         
-        {/* Decorative Header Background (Optional soft gradient top) */}
+        
         <div className="h-2 w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
 
         <div className="p-8 pt-6">
           <DialogHeader className="flex flex-col items-center gap-4 space-y-0 text-center mb-6">
             
-            {/* Animated/Styled Icon */}
             <div className="h-16 w-16 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center mb-2 ring-4 ring-indigo-50/50">
               <Bell className="w-8 h-8" />
             </div>
 
             <DialogTitle className="text-2xl font-bold text-gray-900 tracking-tight">
-              Welcome Back
+              Welcome
             </DialogTitle>
             
             <DialogDescription className="text-base text-gray-500 max-w-[280px]">
-              Sign in to track product prices and receive instant deal alerts.
+              Sign in to track product prices and receive instant best deal alerts.
             </DialogDescription>
           </DialogHeader>
 
           <div className="flex flex-col gap-4">
-            {/* Interactive Google Button */}
+          
             <Button
               onClick={handleGoogleLogin}
               variant="outline"
