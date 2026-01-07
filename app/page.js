@@ -97,14 +97,20 @@ export default async function Home() {
         </section>
       )}
         <footer className="mt-32 pb-8 text-center animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500">
-            <div className="inline-flex items-center gap-1.5 text-sm text-muted-foreground/60 hover:text-muted-foreground transition-colors group/footer">
-              <span>Designed & Developed by</span>
-              <span className="relative font-mono font-bold text-primary/80 group-hover/footer:text-transparent group-hover/footer:bg-clip-text group-hover/footer:bg-gradient-to-r group-hover/footer:from-cyan-500 group-hover/footer:to-pink-500 transition-all duration-300 cursor-pointer">
-                Anshu Kushwaha
-                <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-gradient-to-r from-cyan-500 to-pink-500 group-hover/footer:w-full transition-all duration-300" />
-              </span>
-            </div>
-        </footer>
+  <div className="inline-flex items-center gap-1.5 text-sm text-muted-foreground/60 hover:text-muted-foreground transition-colors group/footer">
+    <span>Designed & Developed by</span>
+    <a 
+      href="https://anshu-portfolio042.vercel.app/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="relative font-mono font-bold text-primary/80 group-hover/footer:text-transparent group-hover/footer:bg-clip-text group-hover/footer:bg-gradient-to-r group-hover/footer:from-cyan-500 group-hover/footer:to-pink-500 transition-all duration-300 cursor-pointer"
+    >
+      Anshu Kushwaha
+      <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-gradient-to-r from-cyan-500 to-pink-500 group-hover/footer:w-full transition-all duration-300" />
+    </a>
+    
+  </div>
+</footer>
       </div>
     </main>
   );
